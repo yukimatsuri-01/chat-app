@@ -82,8 +82,8 @@
 }
 
 /* チャットメッセージ一覧 */
-.chat-messages {
-  height: calc(100vh - 190px);
+.messages {
+  height: calc(100vh - 100px - 90px);
   background-color: #FAFAFA;
   padding: 46px 40px 0; 
   overflow: scroll;
@@ -112,6 +112,7 @@
   margin-top: 10px;
 }
 
+
 .message-content {
   font-size: 14px;
   color: #434A54;
@@ -131,6 +132,7 @@
   display: flex;
   width: 100%;
 }
+
 
 .form-message {
   border: none;
